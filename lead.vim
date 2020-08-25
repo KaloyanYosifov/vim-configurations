@@ -25,5 +25,5 @@ nmap <Leader><space> :nohlsearch<cr>
 
 augroup autosourcing
 	autocmd!
-	autocmd BufWritePost .vimrc source %
+	autocmd BufWritePost lead.vim source %
 augroup END
