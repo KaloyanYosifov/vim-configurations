@@ -6,6 +6,8 @@ set commentary
 set highlightedyank
 
 let g:highlightedyank_highlight_color = "rgba(160, 160, 160, 155)"
+
+" multiple cursor plugin remap
 map <C-n> <A-n>
 map <C-x> <A-x>
 map <C-p> <A-p>
