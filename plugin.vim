@@ -17,6 +17,7 @@ Plugin 'shapeoflambda/dark-purple.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'fatih/vim-go'
 Plugin 'preservim/nerdtree'
+Plugin 'ycm-core/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
