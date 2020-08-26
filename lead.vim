@@ -51,6 +51,7 @@ nmap <Leader>r :registers<cr>
 nmap <Leader><space> :nohlsearch<cr>
 nmap <Leader>s :vs <cr>
 nmap <D-l> <C-w><C-l>
+nmap <C-S-e> :NERDTreeToggle<cr>
 
 " --------------------- Autocommands  ----------------------------------------------"
 
