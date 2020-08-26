@@ -13,8 +13,7 @@ syntax on
 set linespace=4
 set guifont=JetBrains\ Mono:h13
 
-let mapleader = ',' " set the map leader to be equal to the , instead of the \ as it is more comforting
-
+let mapleader = "," 
 
 " --------------------- Mappings ----------------------------------------------"
 
