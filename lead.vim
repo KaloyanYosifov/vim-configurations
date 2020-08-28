@@ -1,5 +1,8 @@
 source $HOME/.vim/plugin.vim
 
+" allow for backspace
+set backspace=indent,eol,start
+
 "Activate numbers live by default for vim
 set nu
 
@@ -45,6 +48,7 @@ let g:go_fmt_autosave = 1
 colorscheme dark_purple
 
 " --------------------- Mappings ----------------------------------------------"
+source ~/.vim/mappings/mappings.vim
 
 nmap <Leader>ev :tabedit ~/.vimrc<cr>
 nmap <Leader>r :registers<cr>

@@ -6,6 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
+Plugin 'ervandew/supertab'
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-multiple-cursors'
@@ -18,7 +19,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'fatih/vim-go'
 Plugin 'preservim/nerdtree'
 Plugin 'ycm-core/YouCompleteMe'
-Plugin 'ervandew/supertab'
+Plugin 'frazrepo/vim-rainbow'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
