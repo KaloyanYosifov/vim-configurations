@@ -1,7 +1,8 @@
 source $HOME/.vim/plugin.vim
-
-" allow for backspace
 set backspace=indent,eol,start
+
+" remove compatibility for vi
+set nocompatible
 
 "Activate numbers live by default for vim
 set nu
