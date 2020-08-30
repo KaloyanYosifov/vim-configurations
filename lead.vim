@@ -7,6 +7,9 @@ set nocompatible
 "Activate numbers live by default for vim
 set nu
 
+" clipboard settings
+set clipboard=unnamedplus
+
 " set incremental search, so we are not required to press enter when searching
 set hlsearch
 set incsearch
