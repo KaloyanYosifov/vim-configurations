@@ -8,7 +8,7 @@ set nocompatible
 set nu
 
 " clipboard settings
-set clipboard=unnamedplus
+set clipboard^=unnamed,unnamedplus
 
 " set incremental search, so we are not required to press enter when searching
 set hlsearch
