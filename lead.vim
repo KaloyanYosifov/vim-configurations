@@ -5,6 +5,7 @@ set backspace=indent,eol,start
 set nocompatible
 
 "Activate numbers live by default for vim
+set relativenumber
 set nu
 
 " clipboard settings
