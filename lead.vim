@@ -59,6 +59,9 @@ nmap <Leader>ev :tabedit ~/.vimrc<cr>
 nmap <Leader>r :registers<cr>
 nmap <Leader><space> :nohlsearch<cr>
 nmap <Leader>s :vs <cr>
+nmap <Leader>t :-
+nmap <Leader>b :+
+
 nmap <D-l> <C-w><C-l>
 nmap <C-S-e> :NERDTreeToggle<cr>
 
