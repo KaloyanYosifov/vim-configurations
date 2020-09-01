@@ -20,6 +20,7 @@ Plugin 'fatih/vim-go'
 Plugin 'preservim/nerdtree'
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'frazrepo/vim-rainbow'
+Plugin 'vim-scripts/ReplaceWithRegister'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

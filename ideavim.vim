@@ -4,6 +4,7 @@ set surround
 set multiple-cursors
 set commentary
 set highlightedyank
+set ReplaceWithRegister
 
 let g:highlightedyank_highlight_color = "rgba(160, 160, 160, 155)"
 
