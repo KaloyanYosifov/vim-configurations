@@ -111,6 +111,15 @@ set ttyfast
 
 " --------------------- CTRLP plugin  ----------------------------------------------"
 
+function! IPhpInsertUse()
+    call PhpInsertUse()
+    call feedkeys('a',  'n')
+endfunction
+autocmd FileType php inoremap <Leader>i <Esc>:call IPhpInsertUse()<CR>
+autocmd FileType php noremap <Leader>i :call PhpInsertUse()<CR>
+
+" --------------------- CTRLP plugin  ----------------------------------------------"
+
 let NERDTreeQuitOnOpen=1
 
 " --------------------- CTRLP plugin  ----------------------------------------------"

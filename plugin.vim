@@ -22,6 +22,7 @@ Plugin 'ycm-core/YouCompleteMe'
 Plugin 'frazrepo/vim-rainbow'
 Plugin 'vim-scripts/ReplaceWithRegister'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'arnaud-lb/vim-php-namespace'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
