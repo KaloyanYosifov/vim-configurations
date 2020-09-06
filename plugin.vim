@@ -25,6 +25,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'arnaud-lb/vim-php-namespace'
 Plugin 'wincent/terminus'
 Plugin 'ludovicchabant/vim-gutentags'
+Plugin 'amiorin/vim-project'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
