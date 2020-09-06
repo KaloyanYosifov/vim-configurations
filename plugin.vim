@@ -25,7 +25,6 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'arnaud-lb/vim-php-namespace'
 Plugin 'wincent/terminus'
 Plugin 'ludovicchabant/vim-gutentags'
-Plugin 'amiorin/vim-project'
 Plugin 'stephpy/vim-php-cs-fixer'
 
 " All of your Plugins must be added before the following line

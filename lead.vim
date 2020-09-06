@@ -58,11 +58,6 @@ colorscheme dark_purple
 
 source ~/.vim/mappings/mappings.vim
 
-" --------------------- Vim project ----------------------------------------------"
-
-let g:project_use_nerdtree = 1
-set rtp+=~/vim/bundle/vim-project/
-
 " --------------------- Import php files ----------------------------------------------"
 
 function! IPhpInsertUse()
