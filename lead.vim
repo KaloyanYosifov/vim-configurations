@@ -53,51 +53,10 @@ let g:go_fmt_autosave = 1
 colorscheme dark_purple
 
 " --------------------- Mappings ----------------------------------------------"
+
 source ~/.vim/mappings/mappings.vim
 
-nmap <Leader>ev :tabedit ~/.vimrc<cr>
-nmap <Leader>r :registers<cr>
-nmap <Leader><space> :nohlsearch<cr>
-
-" split screen vertically
-nmap <Leader>s :vs <cr>
-
-" move to top line using relative numbers
-nmap <Leader>t :-
-
-" move to bottom line using relative numbers
-nmap <Leader>b :+
-
-nmap <Leader>sd :NERDTreeToggle<cr>
-
-" --------------------- Moving lines mapping ----------------------------------------------"
-if  has('macunix')
-	" this is mac specific mapping for <A-j>
-	nnoremap ∆ :m +1<cr>
-
-	" this is mac specific mapping for <A-k>
-	nnoremap ˚ :m -2<cr>
-
-	inoremap ∆ <Esc>:m .+1<CR>==gi
-	inoremap ˚ <Esc>:m .-2<CR>==gi
-
-	vnoremap ∆ :m '>+1<CR>gv=gv
-	vnoremap ˚ :m '<-2<CR>gv=gv
-else
-	" this is mac specific mapping for <A-j>
-	nnoremap <A-j> :m +1<cr>
-
-	" this is mac specific mapping for <A-k>
-	nnoremap <A-k> :m -2<cr>
-
-	inoremap <A-j> <Esc>:m .+1<CR>==gi
-	inoremap <A-k> <Esc>:m .-2<CR>==gi
-
-	vnoremap <A-j> :m '>+1<CR>gv=gv
-	vnoremap <A-k> :m '<-2<CR>gv=gv
-endif
-
-" --------------------- CTRLP plugin  ----------------------------------------------"
+" --------------------- Import php files ----------------------------------------------"
 
 function! IPhpInsertUse()
     call PhpInsertUse()
@@ -106,7 +65,7 @@ endfunction
 autocmd FileType php inoremap <Leader>i <Esc>:call IPhpInsertUse()<CR>
 autocmd FileType php noremap <Leader>i :call PhpInsertUse()<CR>
 
-" --------------------- CTRLP plugin  ----------------------------------------------"
+" --------------------- Nerd Tree ----------------------------------------------"
 
 let NERDTreeQuitOnOpen=1
 
