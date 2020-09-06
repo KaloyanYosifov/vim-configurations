@@ -23,7 +23,7 @@ set guifont=JetBrains\ Mono:h13
 
 let mapleader = "," 
 
-set autowrite
+set autowriteall
 
 " --------------------- ColorScheme ------------------------------------------
 
