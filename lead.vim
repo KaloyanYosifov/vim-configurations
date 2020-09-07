@@ -1,5 +1,6 @@
 source $HOME/.vim/plugin.vim
 set backspace=indent,eol,start
+set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 
 " remove compatibility for vi
 set nocompatible
@@ -58,6 +59,11 @@ colorscheme dark_purple
 
 source ~/.vim/mappings/mappings.vim
 
+" --------------------- Vim Project ----------------------------------------------"
+
+let g:project_use_nerdtree = 1
+set rtp+=~/.vim/bundle/vim-project/
+
 " --------------------- Import php files ----------------------------------------------"
 
 function! IPhpInsertUse()
@@ -84,3 +90,13 @@ augroup autosourcing
 	autocmd!
 	autocmd BufWritePost lead.vim source %
 augroup END
+
+" --------------------- Common IDE functions  ----------------------------------------------"
+
+source ~/.vim/common-ide.vim
+
+" --------------------- Workspaces  ----------------------------------------------"
+
+if filereadable(expand("~/.vim/workspaces.vim"))
+	source ~/.vim/workspaces.vim
+endif
