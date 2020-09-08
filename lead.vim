@@ -1,6 +1,7 @@
 source $HOME/.vim/plugin.vim
 set backspace=indent,eol,start
 set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
+set tags=./tags,tags;$HOME
 
 " remove compatibility for vi
 set nocompatible
@@ -104,10 +105,10 @@ endif
 " --------------------- vim gutentags  ----------------------------------------------"
 " Documentation -> https://www.reddit.com/r/vim/comments/d77t6j/guide_how_to_setup_ctags_with_gutentags_properly/
 
+" let g:gutentags_trace = 1
 let g:gutentags_generate_on_new = 1
 let g:gutentags_generate_on_missing = 1
 let g:gutentags_generate_on_write = 1
 let g:gutentags_generate_on_empty_buffer = 0
-let g:gutentags_ctags_extra_args = [
-      \ '--regex-php=/^[ \t]*trait[ \t]+([a-z0_9_]+)/\1/t,traits/i',
-      \ ]
+let g:gutentags_ctags_exclude = ["*.wiki", "*.min.js", "*.min.css", ".git", "node_modules", "build", "vendor"]
+let g:gutentags_project_root = ['tags'] 

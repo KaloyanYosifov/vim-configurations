@@ -9,5 +9,7 @@ function! Laravel(...) abort
 
     let g:php_cs_fixer_verbose = 1
 
+    let g:gutentags_ctags_extra_args = ['--PHP-kinds=cfi', '--regex-php="/^[ \t]*trait[ \t]+([a-z0_9_]+)/\1/t,traits/i"', '-R']
+
     autocmd FileType php nnoremap <leader>g :silent :call PhpCsFixerFixFile()<CR>
 endfunction
