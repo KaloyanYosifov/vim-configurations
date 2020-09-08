@@ -100,3 +100,14 @@ source ~/.vim/common-ide.vim
 if filereadable(expand("~/.vim/workspaces.vim"))
 	source ~/.vim/workspaces.vim
 endif
+
+" --------------------- vim gutentags  ----------------------------------------------"
+" Documentation -> https://www.reddit.com/r/vim/comments/d77t6j/guide_how_to_setup_ctags_with_gutentags_properly/
+
+let g:gutentags_generate_on_new = 1
+let g:gutentags_generate_on_missing = 1
+let g:gutentags_generate_on_write = 1
+let g:gutentags_generate_on_empty_buffer = 0
+let g:gutentags_ctags_extra_args = [
+      \ '--regex-php=/^[ \t]*trait[ \t]+([a-z0_9_]+)/\1/t,traits/i',
+      \ ]
