@@ -15,6 +15,7 @@ else
 endif
 
 nmap <silent> <C-b> <Plug>(coc-definition)
+nmap <silent> <C-i> <Plug>(coc-implementation)
 
 if has('gui_macvim')
     nmap <silent> <D-b> <Plug>(coc-definition)
