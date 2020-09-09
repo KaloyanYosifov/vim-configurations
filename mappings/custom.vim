@@ -23,6 +23,3 @@ else
 	vnoremap <A-j> :m '>+1<CR>gv=gv
 	vnoremap <A-k> :m '<-2<CR>gv=gv
 endif
-
-" remap tag finder
-noremap <C-b> <C-]>

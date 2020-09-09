@@ -27,6 +27,23 @@ let mapleader = ","
 
 set autowriteall
 
+" TextEdit might fail if hidden is not set.
+set hidden
+
+" Some servers have issues with backup files, see #649.
+set nobackup
+set nowritebackup
+
+" Give more space for displaying messages.
+set cmdheight=2
+
+" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+" delays and poor user experience.
+set updatetime=300
+
+" Don't pass messages to |ins-completion-menu|.
+set shortmess+=c
+
 " --------------------- ColorScheme ------------------------------------------
 
 """" enable 24bit true color
@@ -112,3 +129,13 @@ let g:gutentags_generate_on_write = 1
 let g:gutentags_generate_on_empty_buffer = 0
 let g:gutentags_ctags_exclude = ["*.wiki", "*.min.js", "*.min.css", ".git", "node_modules", "build", "vendor"]
 let g:gutentags_project_root = ['tags'] 
+
+" --------------------- Conquer of completion ----------------------------------------------"
+
+" Add `:Format` command to format current buffer.
+command! -nargs=0 Format :call CocAction('format')
+
+if has("gui_macvim")
+	let g:ctrlp_map = '<D-p>'
+	let g:ctrlp_cmd = 'CtrlP'
+endif
