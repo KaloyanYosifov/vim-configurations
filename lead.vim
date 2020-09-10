@@ -103,6 +103,11 @@ let g:ctrlp_custom_ignore = 'nodue_modules\DS_Store\git'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:ctrlp_working_path_mode = 'ca'
 
+if has("gui_macvim")
+	let g:ctrlp_map = '<D-p>'
+	let g:ctrlp_cmd = 'CtrlP'
+endif
+
 " --------------------- Autocommands  ----------------------------------------------"
 
 augroup autosourcing
@@ -124,8 +129,3 @@ endif
 
 " Add `:Format` command to format current buffer.
 command! -nargs=0 Format :call CocAction('format')
-
-if has("gui_macvim")
-	let g:ctrlp_map = '<D-p>'
-	let g:ctrlp_cmd = 'CtrlP'
-endif
