@@ -94,6 +94,7 @@ autocmd FileType php noremap <Leader>i :call PhpInsertUse()<CR>
 " --------------------- Nerd Tree ----------------------------------------------"
 
 let NERDTreeQuitOnOpen=1
+let NERDTreeShowLineNumbers=1
 
 " --------------------- CTRLP plugin  ----------------------------------------------"
 

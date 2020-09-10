@@ -1,3 +1,5 @@
+nnoremap <C-e> <C-w><C-w>
+
 if  has('macunix')
 	" this is mac specific mapping for <A-j>
 	nnoremap ∆ :m +1<cr>
