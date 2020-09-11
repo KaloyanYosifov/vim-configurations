@@ -101,7 +101,9 @@ let NERDTreeShowLineNumbers=1
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 let g:ctrlp_custom_ignore = 'nodue_modules\DS_Store\git'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
-let g:ctrlp_working_path_mode = 'ca'
+" let g:ctrlp_working_path_mode = 'ca'
+let g:ctrlp_max_files = 100000
+let g:ctrlp_working_path_mode = ''
 
 if has("gui_macvim")
 	let g:ctrlp_map = '<D-p>'
