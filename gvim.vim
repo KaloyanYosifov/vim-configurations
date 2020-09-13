@@ -3,5 +3,6 @@ if has("gui_macvim")
 	macmenu &Tools.Make key=<nop>
 endif
 
-set guioptions -=m 
-set guioptions -=T
+set guioptions-=m  "menu bar
+set guioptions-=T  "toolbar
+set guioptions-=r  "scrollbar
