@@ -127,6 +127,11 @@ if filereadable(expand("~/.vim/workspaces.vim"))
 	source ~/.vim/workspaces.vim
 endif
 
+
+" --------------------- Super Tab  ----------------------------------------------"
+
+let g:SuperTabDefaultCompletionType = "<c-n>"
+
 " --------------------- Conquer of completion ----------------------------------------------"
 
 " Add `:Format` command to format current buffer.
