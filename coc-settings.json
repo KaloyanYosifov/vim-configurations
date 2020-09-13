@@ -1,4 +1,5 @@
 {
+    "suggest.timeout": 500,
     "languageserver": {
         "intelephense": {
             "command": "intelephense",

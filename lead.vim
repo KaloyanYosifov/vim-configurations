@@ -136,3 +136,4 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 
 " Add `:Format` command to format current buffer.
 command! -nargs=0 Format :call CocAction('format')
+inoremap <silent><expr> <c-space> coc#refresh()
