@@ -1,6 +1,7 @@
 {
     "suggest.timeout": 500,
     "suggest.noselect": true,
+    "coc.preferences.formatOnSaveFiletypes": ["css", "scss", "vue", "php", "js", "ts", "tsx", "jsx"],
     "languageserver": {
         "intelephense": {
             "command": "intelephense",
