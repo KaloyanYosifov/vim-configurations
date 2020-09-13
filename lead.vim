@@ -21,7 +21,7 @@ set incsearch
 syntax on
 
 set linespace=4
-set guifont=JetBrains\ Mono:h13
+set guifont=JetBrains\ Mono\ Regular
 
 let mapleader = "," 
 
