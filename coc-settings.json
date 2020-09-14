@@ -1,15 +1,36 @@
 {
-    "suggest.timeout": 500,
-    "suggest.noselect": true,
-    "coc.preferences.formatOnSaveFiletypes": ["css", "scss", "vue", "php", "js", "ts", "tsx", "jsx"],
-    "languageserver": {
-        "intelephense": {
-            "command": "intelephense",
-            "args": ["--stdio"],
-            "filetypes": ["php"],
-            "initializationOptions": {
-                "storagePath": "/tmp/intelephense"
-            }
-        }
+  "prettier.requireConfig": true,
+  "prettier.eslintIntegration": true,
+
+  "suggest.timeout": 500,
+  "suggest.noselect": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "json",
+    "vue",
+    "markdown",
+    "Markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "vetur.validation.template": false,
+
+  "json.enable": true,
+  "json.format.enable": true,
+
+  "eslint.autoFixOnSave": true,
+
+  "languageserver": {
+    "intelephense": {
+      "command": "intelephense",
+      "args": ["--stdio"],
+      "filetypes": ["php"],
+      "initializationOptions": {
+        "storagePath": "/tmp/intelephense"
+      }
     }
+  }
 }
