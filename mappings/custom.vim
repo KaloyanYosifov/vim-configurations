@@ -1,4 +1,5 @@
 nnoremap <C-e> <C-w><C-w>
+inoremap jk <Esc>
 
 if  has('macunix')
 	" this is mac specific mapping for <A-j>

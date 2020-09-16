@@ -99,10 +99,14 @@ let NERDTreeShowLineNumbers=1
 " --------------------- CTRLP plugin  ----------------------------------------------"
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
-let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee\|^\vendor'
+let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee\|vendor\|public'
 " let g:ctrlp_working_path_mode = 'ca'
+let g:ctrlp_max_height = 20
 let g:ctrlp_max_files = 100000
 let g:ctrlp_working_path_mode = ''
+let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_by_filename = 1
+let g:ctrlp_regexp = 1
 
 if has("gui_macvim")
 	let g:ctrlp_map = '<D-p>'

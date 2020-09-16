@@ -23,6 +23,8 @@
 
   "eslint.autoFixOnSave": true,
 
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+
   "languageserver": {
     "intelephense": {
       "command": "intelephense",
