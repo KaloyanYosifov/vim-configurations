@@ -10,6 +10,9 @@ set nocompatible
 set relativenumber
 set nu
 
+"Set scroll offset
+set scrolloff=15
+
 " clipboard settings
 set clipboard^=unnamed,unnamedplus
 
