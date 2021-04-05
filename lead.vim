@@ -60,7 +60,7 @@ syntax enable
 " Always show lightline
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'dark_purple',
+      \ 'colorscheme': 'light',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             ['readonly', 'filename', 'modified' ] ],
@@ -74,7 +74,8 @@ let g:lightline = {
       \ }
 let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
-colorscheme dark_purple
+colorscheme one
+set background=light
 
 " --------------------- Mappings ----------------------------------------------"
 

@@ -26,6 +26,7 @@ Plugin 'wincent/terminus'
 Plugin 'stephpy/vim-php-cs-fixer'
 Plugin 'KaloyanYosifov/vim-project'
 Plugin 'neoclide/coc.nvim'
+Plugin 'rakr/vim-one'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
