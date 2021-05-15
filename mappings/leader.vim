@@ -1,4 +1,4 @@
-nmap <Leader>ev :tabedit ~/.vimrc<cr>
+nmap <Leader>ev :tabedit ~/.vim/.lead.vim<cr>
 nmap <Leader>r :registers<cr>
 nmap <Leader><space> :nohlsearch<cr>
 

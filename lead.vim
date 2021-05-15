@@ -1,5 +1,9 @@
 source $HOME/.vim/plugin.vim
 
+" --------------------- Settings ----------------------------------------------"
+
+source $HOME/.vim/settings.vim
+
 " --------------------- Source all plugin config files ----------------------------------------------"
 " source every plugin configs
 for file in split(glob("~/.vim/plugin-configs/**/*.vim"), '\n')
@@ -11,10 +15,6 @@ endfor
 for file in split(glob("~/.vim/mappings/**/*.vim"), '\n')
     execute 'source' file
 endfor
-
-" --------------------- Settings ----------------------------------------------"
-
-source $HOME/.vim/settings.vim
 
 " --------------------- Vim Project ----------------------------------------------"
 
@@ -43,7 +43,8 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 
 " --------------------- Autocommands  ----------------------------------------------"
 
-augroup autosourcing
+augroup baseAutoCommands
 	autocmd!
 	autocmd BufWritePost lead.vim source ~/.vimrc
+    autocmd BufEnter * :syntax sync fromstart
 augroup END

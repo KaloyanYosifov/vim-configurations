@@ -31,6 +31,10 @@ Plug 'kristijanhusak/vim-dadbod-ui'
 " vue
 Plug 'posva/vim-vue', {'for': 'vue'}
 
+" git
+Plug 'tpope/vim-fugitive' | Plug 'mhinz/vim-signify' " wrapper for git and display git diff in the left gutter
+Plug 'junegunn/gv.vim' " Display commits for project / file
+
 " other
 Plug 'chrisbra/csv.vim'
 Plug 'tpope/vim-surround'
