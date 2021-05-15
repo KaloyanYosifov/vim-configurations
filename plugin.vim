@@ -28,6 +28,9 @@ Plug 'sebdah/vim-delve', {'for': 'go'} " debugger
 Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
 
+" vue
+Plug 'posva/vim-vue', {'for': 'vue'}
+
 " other
 Plug 'chrisbra/csv.vim'
 Plug 'tpope/vim-surround'

@@ -30,7 +30,7 @@ set incsearch
 syntax on
 
 set linespace=4
-set guifont=JetBrains\ Mono\ Regular
+set guifont=JetBrains\ Mono\ Regular\ 14
 
 let mapleader = "," 
 
@@ -126,6 +126,5 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 
 augroup autosourcing
 	autocmd!
-	autocmd BufWritePost lead.vim source %
+	autocmd BufWritePost lead.vim source ~/.vimrc
 augroup END
-
