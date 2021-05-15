@@ -10,9 +10,3 @@ let g:ctrlp_by_filename = 1
 let g:ctrlp_regexp = 1
 let g:ctrlp_switch_buffer = 'e'
 let g:ctrlp_match_window_reversed = 0
-
-
-if has("gui_macvim")
-	let g:ctrlp_map = '<D-p>'
-	let g:ctrlp_cmd = 'CtrlP'
-endif

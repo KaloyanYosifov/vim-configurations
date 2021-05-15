@@ -46,7 +46,7 @@ Plug 'arnaud-lb/vim-php-namespace'
 Plug 'wincent/terminus'
 Plug 'KaloyanYosifov/vim-project'
 Plug 'neoclide/coc.nvim'
-Plug 'rakr/vim-one'
+Plug 'NLKNguyen/papercolor-theme'
 
 " All of your Plugins must be added before the following line
 call plug#end()
