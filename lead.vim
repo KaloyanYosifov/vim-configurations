@@ -139,6 +139,9 @@ endif
 
 let g:SuperTabDefaultCompletionType = "<c-n>"
 
-" --------------------- Conquer of completion ----------------------------------------------"
+" --------------------- Source all plugin config files ----------------------------------------------"
+" source every plugin configs
+for file in split(glob("~/.vim/plugin-configs/**/*.vim"), '\n')
+    execute 'source' file
+endfor
 
-source ~/.vim/coc.vim

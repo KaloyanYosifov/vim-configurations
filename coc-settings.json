@@ -1,59 +1,70 @@
 {
-  "prettier.requireConfig": true,
-  "prettier.eslintIntegration": true,
-
-  "suggest.timeout": 500,
-  "suggest.noselect": true,
-  "coc.preferences.formatOnSaveFiletypes": [
-    "css",
-    "json",
-    "vue",
-    "markdown",
-    "Markdown",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
-
-  "vetur.validation.template": false,
-
-  "json.enable": true,
-  "json.format.enable": true,
-
-  "eslint.autoFixOnSave": true,
-
-  "vetur.format.defaultFormatter.js": "prettier-eslint",
-
-  "languageserver": {
-    "intelephense": {
-      "command": "intelephense",
-      "args": ["--stdio"],
-      "filetypes": ["php"],
-      "initializationOptions": {
-        "storagePath": "/tmp/intelephense"
-      }
-    },
-    "ccls": {
-        "command": "ccls",
-        "filetypes": [
-            "c",
-            "cpp",
-            "objc",
-            "objcpp"
-        ],
-        "rootPatterns": [
-            ".ccls",
-            "compile_commands.json",
-            ".vim/",
-            ".git/",
-            ".hg/"
-        ],
-        "initializationOptions": {
-            "cache": {
-                "directory": "/tmp/ccls"
+    "prettier.requireConfig": true,
+    "prettier.eslintIntegration": true,
+    "suggest.timeout": 500,
+    "suggest.noselect": true,
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "json",
+        "vue",
+        "markdown",
+        "Markdown",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "vetur.validation.template": false,
+    "json.enable": true,
+    "json.format.enable": true,
+    "eslint.autoFixOnSave": true,
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "languageserver": {
+        "golang": {
+            "command": "gopls",
+            "rootPatterns": [
+                "go.mod",
+                ".vim/",
+                ".git/",
+                ".hg/"
+            ],
+            "trace.server": "verbose",
+            "filetypes": [
+                "go"
+            ]
+        },
+        "intelephense": {
+            "command": "intelephense",
+            "args": [
+                "--stdio"
+            ],
+            "filetypes": [
+                "php"
+            ],
+            "initializationOptions": {
+                "storagePath": "/tmp/intelephense"
+            }
+        },
+        "ccls": {
+            "command": "ccls",
+            "filetypes": [
+                "c",
+                "cpp",
+                "objc",
+                "objcpp"
+            ],
+            "rootPatterns": [
+                ".ccls",
+                "compile_commands.json",
+                ".vim/",
+                ".git/",
+                ".hg/"
+            ],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls"
+                }
             }
         }
     }
-  }
 }
