@@ -1,17 +1,23 @@
 source $HOME/.vim/plugin.vim
 set backspace=indent,eol,start
 set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
-set tags=./tags,tags;$HOME
+set shiftround
+" set tags=./tags,tags;$HOME
 
 " remove compatibility for vi
 set nocompatible
+set noswapfile
 
 "Activate numbers live by default for vim
 set relativenumber
 set nu
 
+" Use case insensitive search, except when using capital letters
+set ignorecase
+set smartcase
+
 "Set scroll offset
-set scrolloff=15
+set scrolloff=999
 
 " clipboard settings
 set clipboard^=unnamed,unnamedplus
@@ -33,6 +39,9 @@ set autowriteall
 " TextEdit might fail if hidden is not set.
 set hidden
 
+" for vertical pane in git diff tool
+set diffopt+=vertical
+
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
@@ -47,8 +56,14 @@ set updatetime=300
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
 
-" --------------------- ColorScheme ------------------------------------------
+" --------------------- Source all plugin config files ----------------------------------------------"
+" source every plugin configs
+for file in split(glob("~/.vim/plugin-configs/**/*.vim"), '\n')
+    execute 'source' file
+endfor
 
+
+" --------------------- ColorScheme ------------------------------------------
 """" enable 24bit true color
 " If you have vim >=8.0 or Neovim >= 0.1.5
 if (has("termguicolors"))
@@ -86,15 +101,6 @@ source ~/.vim/mappings/mappings.vim
 let g:project_use_nerdtree = 1
 set rtp+=~/.vim/bundle/vim-project/
 
-" --------------------- Import php files ----------------------------------------------"
-
-function! IPhpInsertUse()
-    call PhpInsertUse()
-    call feedkeys('a',  'n')
-endfunction
-autocmd FileType php inoremap <Leader>i <Esc>:call IPhpInsertUse()<CR>
-autocmd FileType php noremap <Leader>i :call PhpInsertUse()<CR>
-
 " --------------------- Nerd Tree ----------------------------------------------"
 
 let NERDTreeQuitOnOpen=1
@@ -117,13 +123,6 @@ if has("gui_macvim")
 	let g:ctrlp_cmd = 'CtrlP'
 endif
 
-" --------------------- Autocommands  ----------------------------------------------"
-
-augroup autosourcing
-	autocmd!
-	autocmd BufWritePost lead.vim source %
-augroup END
-
 " --------------------- Common IDE functions  ----------------------------------------------"
 
 source ~/.vim/common-ide.vim
@@ -139,9 +138,11 @@ endif
 
 let g:SuperTabDefaultCompletionType = "<c-n>"
 
-" --------------------- Source all plugin config files ----------------------------------------------"
-" source every plugin configs
-for file in split(glob("~/.vim/plugin-configs/**/*.vim"), '\n')
-    execute 'source' file
-endfor
+
+" --------------------- Autocommands  ----------------------------------------------"
+
+augroup autosourcing
+	autocmd!
+	autocmd BufWritePost lead.vim source %
+augroup END
 
