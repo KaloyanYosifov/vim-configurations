@@ -1,33 +1,37 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin("~/.vim/plugged")
 
 " let Vundle manage Vundle, required
-Plugin 'ervandew/supertab'
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-surround'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'tpope/vim-commentary'
-Plugin 'machakann/vim-highlightedyank'
-Plugin 'flazz/vim-colorschemes'
-Plugin 'Rigellute/shades-of-purple.vim'
-Plugin 'shapeoflambda/dark-purple.vim'
-Plugin 'itchyny/lightline.vim'
-Plugin 'fatih/vim-go'
-Plugin 'preservim/nerdtree'
-Plugin 'frazrepo/vim-rainbow'
-Plugin 'vim-scripts/ReplaceWithRegister'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'arnaud-lb/vim-php-namespace'
-Plugin 'wincent/terminus'
-Plugin 'stephpy/vim-php-cs-fixer'
-Plugin 'KaloyanYosifov/vim-project'
-Plugin 'neoclide/coc.nvim'
-Plugin 'rakr/vim-one'
+Plug 'ervandew/supertab'
+Plug 'VundleVim/Vundle.vim'
+Plug 'tpope/vim-surround'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-commentary'
+Plug 'machakann/vim-highlightedyank'
+Plug 'flazz/vim-colorschemes'
+Plug 'Rigellute/shades-of-purple.vim'
+Plug 'shapeoflambda/dark-purple.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'fatih/vim-go'
+Plug 'preservim/nerdtree'
+Plug 'frazrepo/vim-rainbow'
+Plug 'vim-scripts/ReplaceWithRegister'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'arnaud-lb/vim-php-namespace'
+Plug 'wincent/terminus'
+Plug 'stephpy/vim-php-cs-fixer'
+Plug 'KaloyanYosifov/vim-project'
+Plug 'neoclide/coc.nvim'
+Plug 'rakr/vim-one'
 
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
+call plug#end()
 filetype plugin indent on    " required

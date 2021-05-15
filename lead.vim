@@ -141,8 +141,4 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 
 " --------------------- Conquer of completion ----------------------------------------------"
 
-" Add `:Format` command to format current buffer.
-command! -nargs=0 Format :call CocAction('format')
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-
-inoremap <silent><expr> <c-space> coc#refresh()
+source ~/.vim/coc.vim
