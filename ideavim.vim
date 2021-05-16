@@ -1,4 +1,11 @@
-source ~/.vimrc
+" --------------------- Settings ----------------------------------------------"
+
+source ~/.vim/settings.vim
+
+" --------------------- Mappings ----------------------------------------------"
+
+source ~/.vim/mappings/leader.vim
+source ~/.vim/mappings/custom.vim
 
 set surround
 set multiple-cursors
