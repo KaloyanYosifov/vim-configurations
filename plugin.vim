@@ -35,6 +35,9 @@ Plug 'posva/vim-vue', {'for': 'vue'}
 Plug 'tpope/vim-fugitive' | Plug 'mhinz/vim-signify' " wrapper for git and display git diff in the left gutter
 Plug 'junegunn/gv.vim' " Display commits for project / file
 
+" color schemes
+Plug 'NLKNguyen/papercolor-theme'
+
 " other
 Plug 'chrisbra/csv.vim'
 Plug 'tpope/vim-surround'
@@ -53,7 +56,6 @@ Plug 'arnaud-lb/vim-php-namespace'
 Plug 'wincent/terminus'
 Plug 'KaloyanYosifov/vim-project'
 Plug 'neoclide/coc.nvim'
-Plug 'NLKNguyen/papercolor-theme'
 
 " All of your Plugins must be added before the following line
 call plug#end()
