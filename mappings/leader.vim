@@ -1,14 +1,16 @@
-nmap <Leader>ev :tabedit ~/.vim/.lead.vim<cr>
-nmap <Leader>r :registers<cr>
-nmap <Leader><space> :nohlsearch<cr>
+nnoremap <Leader>ev :tabedit ~/.vim/lead.vim<cr>
+nnoremap <Leader>r :registers<cr>
+nnoremap <Leader><space> :nohlsearch<cr>
 
 " split screen vertically
-nmap <Leader>s :vs <cr>
+nnoremap <Leader>s :vs <cr>
 
 " move to top line using relative numbers
-nmap <Leader>t :-
+nnoremap <Leader>t :-
 
 " move to bottom line using relative numbers
-nmap <Leader>b :+
+nnoremap <Leader>b :+
 
-nmap <Leader>nd :NERDTreeToggle<cr>
+nnoremap <Leader>nd :NERDTreeToggle<cr>
+
+noremap <Leader>sv :source ~/.vimrc<cr>
