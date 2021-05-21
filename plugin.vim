@@ -39,6 +39,8 @@ Plug 'junegunn/gv.vim' " Display commits for project / file
 Plug 'NLKNguyen/papercolor-theme'
 
 " other
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'chrisbra/csv.vim'
 Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-surround'
