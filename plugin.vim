@@ -40,6 +40,7 @@ Plug 'NLKNguyen/papercolor-theme'
 
 " other
 Plug 'chrisbra/csv.vim'
+Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-surround'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
