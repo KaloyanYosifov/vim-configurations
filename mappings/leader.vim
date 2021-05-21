@@ -3,7 +3,7 @@ nnoremap <Leader>r :registers<cr>
 nnoremap <Leader><space> :nohlsearch<cr>
 
 " split screen vertically
-nnoremap <Leader>s :vs <cr>
+nnoremap <Leader>vs :vs <cr>
 nnoremap <Leader>w <C-w><C-w>
 
 " move to top line using relative numbers
