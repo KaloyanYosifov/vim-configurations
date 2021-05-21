@@ -41,9 +41,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 " color schemes
 Plug 'NLKNguyen/papercolor-theme'
 
-" styles
-Plug 'ryanoasis/vim-devicons'
-
 " other
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
