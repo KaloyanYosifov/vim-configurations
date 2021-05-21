@@ -16,6 +16,12 @@ for file in split(glob("~/.vim/mappings/**/*.vim"), '\n')
     execute 'source' file
 endfor
 
+" --------------------- Custom Commands ----------------------------------------------"
+
+for file in split(glob("~/.vim/commands/**/*.vim"), '\n')
+    execute 'source' file
+endfor
+
 " --------------------- Vim Project ----------------------------------------------"
 
 let g:project_use_nerdtree = 1

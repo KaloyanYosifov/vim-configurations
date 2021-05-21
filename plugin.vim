@@ -28,6 +28,9 @@ Plug 'sebdah/vim-delve', {'for': 'go'} " debugger
 Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
 
+" html
+Plug 'alvan/vim-closetag', {'for': ['vue', 'jsx', 'html', 'php']}
+
 " vue
 Plug 'posva/vim-vue', {'for': 'vue'}
 
@@ -37,6 +40,9 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " color schemes
 Plug 'NLKNguyen/papercolor-theme'
+
+" styles
+Plug 'ryanoasis/vim-devicons'
 
 " other
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -59,6 +65,7 @@ Plug 'arnaud-lb/vim-php-namespace'
 Plug 'wincent/terminus'
 Plug 'KaloyanYosifov/vim-project'
 Plug 'neoclide/coc.nvim'
+Plug 'tpope/vim-dispatch'
 
 " All of your Plugins must be added before the following line
 call plug#end()

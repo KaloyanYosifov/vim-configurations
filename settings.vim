@@ -1,6 +1,7 @@
 set backspace=indent,eol,start
 set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent smartindent
 set shiftround
+set encoding=UTF-8
 " set tags=./tags,tags;$HOME
 
 " remove compatibility for vi
