@@ -45,6 +45,6 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 
 augroup baseAutoCommands
 	autocmd!
-	autocmd BufWritePost lead.vim source ~/.vimrc
+    autocmd BufEnter * silent! lcd %:p:h
     autocmd BufEnter * :syntax sync fromstart
 augroup END
