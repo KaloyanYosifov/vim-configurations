@@ -27,10 +27,6 @@ endfor
 let g:project_use_nerdtree = 1
 set rtp+=~/.vim/bundle/vim-project/
 
-" --------------------- Nerd Tree ----------------------------------------------"
-
-let NERDTreeQuitOnOpen=1
-let NERDTreeShowLineNumbers=1
 
 " --------------------- Common IDE functions  ----------------------------------------------"
 
