@@ -39,3 +39,4 @@ noremap <S-k> :tabnext<cr>
 
 " FZF Ctrlp for projects
 noremap <C-P> :GFiles --exclude-standard --others --cached<cr>
+nnoremap <silent> <leader>; :BLines<CR>
