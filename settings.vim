@@ -60,7 +60,6 @@ set updatetime=750
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
 
-
 " --------------------- ColorScheme ------------------------------------------
 """" enable 24bit true color
 " If you have vim >=8.0 or Neovim >= 0.1.5

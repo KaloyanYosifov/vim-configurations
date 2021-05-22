@@ -31,6 +31,10 @@ Plug 'kristijanhusak/vim-dadbod-ui'
 " html
 Plug 'alvan/vim-closetag', {'for': ['vue', 'jsx', 'html', 'php']}
 
+" blade
+Plug 'jwalton512/vim-blade', {'for': 'php'}
+Plug 'yaegassy/coc-blade-formatter', {'for': 'php', 'do': 'yarn install --frozen-lockfile',}
+
 " vue
 Plug 'posva/vim-vue', {'for': 'vue'}
 
@@ -62,6 +66,7 @@ Plug 'wincent/terminus'
 Plug 'KaloyanYosifov/vim-project'
 Plug 'neoclide/coc.nvim'
 Plug 'tpope/vim-dispatch'
+Plug 'airblade/vim-rooter'
 
 " All of your Plugins must be added before the following line
 call plug#end()
