@@ -61,11 +61,8 @@ endif
 nmap <leader>gt <Plug>(coc-definition)
 " Remap for rename current word
 nmap <leader>vre <Plug>(coc-rename)
-nmap <leader>cac  <Plug>(coc-codeaction)
-
-nnoremap <leader>cpr :CocSearch <C-R>=expand("<cword>")<CR><CR>
-" Use <c-space> for trigger completion.
-inoremap <silent><expr> <A-space> coc#refresh()
+nmap <leader>cac <Plug>(coc-codeaction-selected)<CR>
+nmap <leader>cag <Plug>(coc-codeaction)
 
 " Use <cr> for confirm completion, `<C-g>u` means break undo chain at current position.
 " Coc only does snippet and additional edit on confirm.
