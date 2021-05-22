@@ -36,3 +36,6 @@ inoremap <expr> <C-k> pumvisible() ? "\<C-P>" : "\<C-k>"
 " Window switching
 noremap <S-j> :tabprev<cr>
 noremap <S-k> :tabnext<cr>
+
+" FZF Ctrlp for projects
+noremap <C-P> :GFiles --exclude-standard --others --cached<cr>
