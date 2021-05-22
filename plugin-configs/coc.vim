@@ -24,7 +24,6 @@ command! -nargs=0 Format :call CocAction('format')
 
 " Coc extensions
 let g:coc_global_extensions = [
-    \ 'coc-snippets',
     \ 'coc-css', 
     \ 'coc-html',
     \ 'coc-json', 
@@ -59,16 +58,12 @@ else
   inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 endif
 
-nnoremap <silent><Leader>d <Plug>(coc-definition)
+nmap <leader>gt <Plug>(coc-definition)
 " Remap for rename current word
-noremap <leader>vre <Plug>(coc-rename)
-noremap <leader>cac  <Plug>(coc-codeaction)
+nmap <leader>vre <Plug>(coc-rename)
+nmap <leader>cac  <Plug>(coc-codeaction)
 
 nnoremap <leader>cpr :CocSearch <C-R>=expand("<cword>")<CR><CR>
-
-" Use tab for trigger completion with characters ahead and navigate.
-" Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
-inoremap <C-s> <Plug>(coc-snippets-expand)
 " Use <c-space> for trigger completion.
 inoremap <silent><expr> <A-space> coc#refresh()
 
@@ -78,4 +73,4 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 
 " Use K for show documentation in preview window
-nnoremap <silent> K :call <SID>show_documentation()<CR>
+nmap <silent> <Leader>dc :call <SID>show_documentation()<CR>
