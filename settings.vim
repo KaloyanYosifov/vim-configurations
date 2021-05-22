@@ -40,7 +40,10 @@ set autowriteall
 set hidden
 
 " for vertical pane in git diff tool
-set diffopt+=vertical
+if &diff
+    set diffopt-=internal
+    set diffopt+=vertical
+endif
 
 " Some servers have issues with backup files, see #649.
 set nobackup
@@ -51,7 +54,7 @@ set cmdheight=2
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
-set updatetime=300
+set updatetime=750
 
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
