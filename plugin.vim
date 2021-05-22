@@ -9,12 +9,14 @@ endif
 
 call plug#begin("~/.vim/plugged")
 
+" Linting
+Plug 'dense-analysis/ale'
+
 " navigation
 Plug 'andymass/vim-matchup' " Match more stuff with % (html tag, LaTeX...)
 Plug 'ervandew/supertab'
 
 " php
-Plug 'stephpy/vim-php-cs-fixer', {'for': 'php'}
 Plug 'adoy/vim-php-refactoring-toolbox', {'for': 'php'}
 Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install --no-dev -o'}
 Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': 'php'} " php doc autocompletion 

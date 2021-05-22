@@ -25,6 +25,8 @@
     },
     "vetur.validation.template": false,
     "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.experimental.templateInterpolationService": true,
+    "vetur.trace.server": "verbose",
     "languageserver": {
         "golang": {
             "command": "gopls",
