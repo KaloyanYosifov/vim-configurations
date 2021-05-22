@@ -25,6 +25,7 @@
     },
     "vetur.validation.template": false,
     "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "intelephense.licenceKey": "~/.config/intelephense/licence.txt",
     "languageserver": {
         "golang": {
             "command": "gopls",
