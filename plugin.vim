@@ -21,8 +21,9 @@ Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
 Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': 'php'} " php doc autocompletion 
 
 " javascript
-Plug 'pangloss/vim-javascript', {'for': ['javascript', 'jsx', 'vue']}
-Plug 'MaxMEllon/vim-jsx-pretty', {'for': ['javascript', 'jsx']}
+Plug 'pangloss/vim-javascript', {'for': ['javascript', 'typescript', 'vue']}
+Plug 'MaxMEllon/vim-jsx-pretty', {'for': ['javascript', 'typescript']}
+Plug 'styled-components/vim-styled-components', {'for': ['javascript', 'typescript']}
 
 " go
 Plug 'fatih/vim-go', {'for': 'go'} " general plugin
@@ -34,7 +35,7 @@ Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
 
 " html
-Plug 'alvan/vim-closetag', {'for': ['vue',  'javascript', 'jsx', 'html', 'php']}
+Plug 'alvan/vim-closetag', {'for': ['vue',  'javascript', 'typescript', 'html', 'php']}
 
 " blade
 Plug 'jwalton512/vim-blade', {'for': 'php'}
@@ -49,6 +50,9 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " color schemes
 Plug 'NLKNguyen/papercolor-theme'
+
+" style
+Plug 'nathanaelkane/vim-indent-guides'
 
 " other
 Plug 'jiangmiao/auto-pairs'

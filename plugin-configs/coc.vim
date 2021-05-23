@@ -38,6 +38,7 @@ let g:coc_global_extensions = [
     \ 'coc-phpls',
     \ 'coc-vetur',
     \ 'coc-blade-formatter',
+    \ 'coc-styled-components',
     \]
 
 inoremap <silent><expr> <c-space> coc#refresh()
