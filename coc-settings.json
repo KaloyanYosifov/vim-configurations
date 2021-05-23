@@ -3,6 +3,7 @@
     "prettier.eslintIntegration": true,
     "suggest.timeout": 5000,
     "suggest.noselect": true,
+    "coc.preferences.jumpCommand": "tabe",
     "coc.preferences.formatOnSaveFiletypes": [
         "css",
         "json",
