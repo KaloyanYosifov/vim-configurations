@@ -48,4 +48,5 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 augroup baseAutoCommands
 	autocmd!
     autocmd BufEnter * :syntax sync fromstart
+    autocmd FocusGained,BufEnter * :checktime
 augroup END

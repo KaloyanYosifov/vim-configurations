@@ -17,13 +17,12 @@ Plug 'andymass/vim-matchup' " Match more stuff with % (html tag, LaTeX...)
 Plug 'ervandew/supertab'
 
 " php
-Plug 'adoy/vim-php-refactoring-toolbox', {'for': 'php'}
-Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install --no-dev -o'}
+Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
 Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': 'php'} " php doc autocompletion 
 
 " javascript
-Plug 'pangloss/vim-javascript', {'for': ['js', 'javascript.jsx', 'jsx', 'vue']}
-Plug 'mxw/vim-jsx', {'for': ['js', 'javascript.jsx', 'jsx']}
+Plug 'pangloss/vim-javascript', {'for': ['javascript', 'jsx', 'vue']}
+Plug 'MaxMEllon/vim-jsx-pretty', {'for': ['javascript', 'jsx']}
 
 " go
 Plug 'fatih/vim-go', {'for': 'go'} " general plugin
@@ -35,7 +34,7 @@ Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
 
 " html
-Plug 'alvan/vim-closetag', {'for': ['vue', 'javascript.jsx', 'jsx', 'html', 'php']}
+Plug 'alvan/vim-closetag', {'for': ['vue',  'javascript', 'jsx', 'html', 'php']}
 
 " blade
 Plug 'jwalton512/vim-blade', {'for': 'php'}
@@ -52,6 +51,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'NLKNguyen/papercolor-theme'
 
 " other
+Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'chrisbra/csv.vim'
@@ -67,7 +67,6 @@ Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
 Plug 'frazrepo/vim-rainbow'
 Plug 'vim-scripts/ReplaceWithRegister'
-Plug 'arnaud-lb/vim-php-namespace'
 Plug 'wincent/terminus'
 Plug 'KaloyanYosifov/vim-project'
 Plug 'neoclide/coc.nvim'
