@@ -21,6 +21,10 @@ Plug 'adoy/vim-php-refactoring-toolbox', {'for': 'php'}
 Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install --no-dev -o'}
 Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': 'php'} " php doc autocompletion 
 
+" javascript
+Plug 'pangloss/vim-javascript', {'for': ['js', 'javascript.jsx', 'jsx', 'vue']}
+Plug 'mxw/vim-jsx', {'for': ['js', 'javascript.jsx', 'jsx']}
+
 " go
 Plug 'fatih/vim-go', {'for': 'go'} " general plugin
 Plug 'godoctor/godoctor.vim', {'for': 'go'} " refactoring
@@ -31,7 +35,7 @@ Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
 
 " html
-Plug 'alvan/vim-closetag', {'for': ['vue', 'jsx', 'html', 'php']}
+Plug 'alvan/vim-closetag', {'for': ['vue', 'javascript.jsx', 'jsx', 'html', 'php']}
 
 " blade
 Plug 'jwalton512/vim-blade', {'for': 'php'}
@@ -69,6 +73,7 @@ Plug 'KaloyanYosifov/vim-project'
 Plug 'neoclide/coc.nvim'
 Plug 'tpope/vim-dispatch'
 Plug 'airblade/vim-rooter'
+Plug 'editorconfig/editorconfig-vim'
 
 " All of your Plugins must be added before the following line
 call plug#end()
