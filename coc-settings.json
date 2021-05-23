@@ -1,7 +1,7 @@
 {
     "prettier.requireConfig": true,
     "prettier.eslintIntegration": true,
-    "suggest.timeout": 50000,
+    "suggest.timeout": 5000,
     "suggest.noselect": true,
     "coc.preferences.formatOnSaveFiletypes": [
         "css",
@@ -23,6 +23,7 @@
         "user": "(U)",
         "vetur": "(V)"
     },
+    "snippets.userSnippetsDirectory": "~/.vim/UltiSnips",
     "vetur.validation.template": false,
     "vetur.format.defaultFormatter.js": "prettier-eslint",
     "vetur.experimental.templateInterpolationService": true,

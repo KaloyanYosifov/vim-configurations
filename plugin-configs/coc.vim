@@ -22,6 +22,8 @@ augroup end
 " Use `:Format` for format current buffer
 command! -nargs=0 Format :call CocAction('format')
 
+let g:coc_user_config = '~/.vim/coc-settings.json'
+
 " Coc extensions
 let g:coc_global_extensions = [
     \ 'coc-css', 

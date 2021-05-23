@@ -25,7 +25,7 @@ endfor
 " --------------------- Vim Project ----------------------------------------------"
 
 let g:project_use_nerdtree = 1
-set rtp+=~/.vim/bundle/vim-project/
+" set rtp+=~/.vim/bundle/vim-project/
 
 
 " --------------------- Common IDE functions  ----------------------------------------------"
