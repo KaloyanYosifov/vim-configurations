@@ -52,7 +52,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'NLKNguyen/papercolor-theme'
 
 " style
-Plug 'nathanaelkane/vim-indent-guides'
+Plug 'Yggdroot/indentLine'
 
 " other
 Plug 'jiangmiao/auto-pairs'
