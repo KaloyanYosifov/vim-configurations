@@ -1,7 +1,7 @@
 {
     "prettier.requireConfig": true,
     "prettier.eslintIntegration": true,
-    "suggest.timeout": 500,
+    "suggest.timeout": 50000,
     "suggest.noselect": true,
     "coc.preferences.formatOnSaveFiletypes": [
         "css",
@@ -40,18 +40,6 @@
             "filetypes": [
                 "go"
             ]
-        },
-        "intelephense": {
-            "command": "intelephense",
-            "args": [
-                "--stdio"
-            ],
-            "filetypes": [
-                "php"
-            ],
-            "initializationOptions": {
-                "storagePath": "/tmp/intelephense"
-            }
         },
         "ccls": {
             "command": "ccls",
