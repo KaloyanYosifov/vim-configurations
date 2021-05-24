@@ -35,6 +35,8 @@ set guifont=JetBrains\ Mono\ Regular\ 14
 
 let mapleader = "," 
 
+set iskeyword+=-
+
 set autowriteall
 
 " TextEdit might fail if hidden is not set.

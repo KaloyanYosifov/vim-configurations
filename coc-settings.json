@@ -19,16 +19,11 @@
     "json.format.enable": true,
     "eslint.autoFixOnSave": true,
     // vetur
-    "vetur.completion.scaffoldSnippetSources": {
-        "workspace": "(W)",
-        "user": "(U)",
-        "vetur": "(V)"
-    },
     "snippets.userSnippetsDirectory": "~/.vim/UltiSnips",
-    "vetur.validation.template": false,
-    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.validation.template": true,
     "vetur.experimental.templateInterpolationService": true,
     "vetur.trace.server": "verbose",
+    "vetur.dev.logLevel": "DEBUG",
     "languageserver": {
         "golang": {
             "command": "gopls",

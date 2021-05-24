@@ -74,3 +74,7 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 " Use K for show documentation in preview window
 nmap <silent> <Leader>dc :call <SID>show_documentation()<CR>
+
+let g:LanguageClient_serverCommands = {
+    \ 'vue': ['vls']
+    \ }
