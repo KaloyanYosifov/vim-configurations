@@ -39,6 +39,7 @@ let g:coc_global_extensions = [
     \ 'coc-blade-formatter',
     \ 'coc-styled-components',
     \ 'coc-sh',
+    \ 'coc-prettier',
     \]
 
 " Important mappings
@@ -59,10 +60,9 @@ else
   inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 endif
 
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
+nmap <silent>gd <Plug>(coc-definition)
+nmap <silent>gy <Plug>(coc-type-definition)
+nmap <silent>gi <Plug>(coc-implementation)
 " Remap for rename current word
 nmap <leader>vre <Plug>(coc-rename)
 nmap <leader>cac <Plug>(coc-codeaction-selected)<CR>

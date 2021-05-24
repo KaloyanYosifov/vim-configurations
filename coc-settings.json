@@ -6,6 +6,7 @@
     "coc.preferences.jumpCommand": "tab drop",
     "coc.preferences.formatOnSaveFiletypes": [
         "css",
+        "scss",
         "json",
         "vue",
         "markdown",
