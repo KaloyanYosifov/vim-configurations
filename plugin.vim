@@ -16,6 +16,9 @@ Plug 'dense-analysis/ale'
 Plug 'andymass/vim-matchup' " Match more stuff with % (html tag, LaTeX...)
 Plug 'ervandew/supertab'
 
+" GraphQL
+Plug 'jparise/vim-graphql'
+
 " php
 Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
 Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': 'php'} " php doc autocompletion 
@@ -24,6 +27,9 @@ Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': 'php'} " php doc autocompleti
 Plug 'pangloss/vim-javascript', {'for': ['javascript', 'typescript', 'vue']}
 Plug 'MaxMEllon/vim-jsx-pretty', {'for': ['javascript', 'typescript']}
 Plug 'styled-components/vim-styled-components', {'for': ['javascript', 'typescript']}
+
+" typescript
+Plug 'leafgarland/typescript-vim', {'for': ['typescript', 'typescriptreact']}
 
 " go
 Plug 'fatih/vim-go', {'for': 'go'} " general plugin

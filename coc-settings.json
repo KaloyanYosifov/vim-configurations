@@ -3,7 +3,7 @@
     "prettier.eslintIntegration": true,
     "suggest.timeout": 5000,
     "suggest.noselect": true,
-    "coc.preferences.jumpCommand": "tabe",
+    "coc.preferences.jumpCommand": "tab drop",
     "coc.preferences.formatOnSaveFiletypes": [
         "css",
         "json",
@@ -27,16 +27,14 @@
     "languageserver": {
         "golang": {
             "command": "gopls",
-            "rootPatterns": [
-                "go.mod",
-                ".vim/",
-                ".git/",
-                ".hg/"
-            ],
-            "trace.server": "verbose",
-            "filetypes": [
-                "go"
-            ]
+            "rootPatterns": ["go.mod"],
+            "disableWorkspaceFolders": true,
+            "filetypes": ["go"]
+        },
+        "graphql": {
+            "command": "graphql-lsp",
+            "args": ["server", "-m", "stream"],
+            "filetypes": ["javascript", "javascriptreact","typescript", "typescriptreact", "graphql"]
         },
         "ccls": {
             "command": "ccls",
