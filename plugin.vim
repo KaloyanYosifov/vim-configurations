@@ -21,7 +21,10 @@ Plug 'jparise/vim-graphql'
 
 " php
 Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
-Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': 'php'} " php doc autocompletion 
+Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': ['php', 'blade']} " php doc autocompletion 
+
+" Laravel
+Plug 'noahfrederick/vim-laravel'
 
 " javascript
 Plug 'pangloss/vim-javascript', {'for': ['javascript', 'typescript', 'vue']}
