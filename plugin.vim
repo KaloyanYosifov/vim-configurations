@@ -34,6 +34,9 @@ Plug 'styled-components/vim-styled-components', {'for': ['javascript', 'typescri
 " typescript
 Plug 'leafgarland/typescript-vim', {'for': ['typescript', 'typescriptreact']}
 
+" Python
+Plug 'vim-python/python-syntax', {'for': 'python'}
+
 " go
 Plug 'fatih/vim-go', {'for': 'go'} " general plugin
 Plug 'godoctor/godoctor.vim', {'for': 'go'} " refactoring
