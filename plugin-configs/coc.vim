@@ -39,6 +39,7 @@ let g:coc_global_extensions = [
     \ 'coc-blade-formatter',
     \ 'coc-styled-components',
     \ 'coc-sh',
+    \ 'coc-rls',
     \ 'coc-prettier',
     \]
 

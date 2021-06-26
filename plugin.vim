@@ -24,7 +24,7 @@ Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
 Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': ['php', 'blade']} " php doc autocompletion 
 
 " Laravel
-Plug 'noahfrederick/vim-laravel'
+Plug 'noahfrederick/vim-laravel', {'for': 'php'}
 
 " javascript
 Plug 'pangloss/vim-javascript', {'for': ['javascript', 'typescript', 'vue']}
@@ -36,6 +36,10 @@ Plug 'leafgarland/typescript-vim', {'for': ['typescript', 'typescriptreact']}
 
 " Python
 Plug 'vim-python/python-syntax', {'for': 'python'}
+
+" Rust
+Plug 'rust-lang/rust.vim', {'for': 'rust'}
+Plug 'cespare/vim-toml', { 'for': 'toml' }
 
 " go
 Plug 'fatih/vim-go', {'for': 'go'} " general plugin
