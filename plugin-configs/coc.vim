@@ -26,11 +26,11 @@ let g:coc_user_config = '~/.vim/coc-settings.json'
 
 " Coc extensions
 let g:coc_global_extensions = [
-    \ 'coc-css', 
+    \ 'coc-css',
     \ 'coc-html',
-    \ 'coc-json', 
-    \ 'coc-yaml', 
-    \ 'coc-sql', 
+    \ 'coc-json',
+    \ 'coc-yaml',
+    \ 'coc-sql',
     \ 'coc-db',
     \ 'coc-pyright',
     \ 'coc-phpactor',
@@ -40,6 +40,7 @@ let g:coc_global_extensions = [
     \ 'coc-styled-components',
     \ 'coc-sh',
     \ 'coc-rls',
+    \ 'coc-rust-analyzer',
     \ 'coc-prettier',
     \]
 

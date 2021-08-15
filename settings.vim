@@ -31,7 +31,8 @@ set incsearch
 syntax on
 
 set linespace=4
-set guifont=JetBrains\ Mono\ Regular\ 14
+" set guifont=JetBrains\ Mono\ Regular\ 14
+set guifont=Cascadia\ Mono\ Regular\ 14
 
 let mapleader = "," 
 
@@ -72,7 +73,7 @@ syntax enable
 " Always show lightline
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'PaperColor',
+      \ 'colorscheme': 'nord',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             ['readonly', 'filename', 'modified' ] ],
@@ -87,5 +88,5 @@ let g:lightline = {
 let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
 
-set background=light
-colorscheme PaperColor
+set background=dark
+colorscheme nord
