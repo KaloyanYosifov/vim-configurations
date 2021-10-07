@@ -42,6 +42,9 @@ endif
 
 let g:SuperTabDefaultCompletionType = "<c-n>"
 
+" --------------------- IndentLine from yggdroot ----------------------------------------------"
+let g:indentLine_setConceal = 0
+
 
 " --------------------- Autocommands  ----------------------------------------------"
 
@@ -49,4 +52,9 @@ augroup baseAutoCommands
 	autocmd!
     autocmd BufEnter * :syntax sync fromstart
     autocmd FocusGained,BufEnter * :checktime
+augroup END
+
+augroup setAssemblyToNasm
+	autocmd!
+    autocmd BufEnter *.asm :set syntax=nasm
 augroup END
