@@ -73,7 +73,7 @@ syntax enable
 " Always show lightline
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'nord',
+      \ 'colorscheme': 'Monokai',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             ['readonly', 'filename', 'modified' ] ],
@@ -89,4 +89,4 @@ let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
 
 set background=dark
-colorscheme nord
+colorscheme Monokai
