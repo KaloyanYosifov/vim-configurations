@@ -34,6 +34,9 @@ Plug 'vim-python/python-syntax', {'for': 'python'}
 Plug 'rust-lang/rust.vim', {'for': 'rust'}
 Plug 'cespare/vim-toml', { 'for': 'toml' }
 
+" Haskell
+Plug 'neovimhaskell/haskell-vim', {'for': 'haskell'}
+
 " go
 Plug 'fatih/vim-go', {'for': 'go'} " general plugin
 Plug 'godoctor/godoctor.vim', {'for': 'go'} " refactoring
