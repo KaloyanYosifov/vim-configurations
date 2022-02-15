@@ -33,8 +33,6 @@ let g:coc_global_extensions = [
     \ 'coc-sql',
     \ 'coc-db',
     \ 'coc-pyright',
-    \ 'coc-phpactor',
-    \ 'coc-phpls',
     \ 'coc-vetur',
     \ 'coc-blade-formatter',
     \ 'coc-styled-components',
