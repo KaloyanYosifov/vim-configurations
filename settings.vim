@@ -31,10 +31,9 @@ set incsearch
 syntax on
 
 set linespace=4
-" set guifont=JetBrains\ Mono\ Regular\ 14
-set guifont=Cascadia\ Mono\ Regular\ 14
+set guifont=JetBrains\ Mono\ Regular:h12
 
-let mapleader = "," 
+let mapleader = ","
 
 set autowriteall
 
@@ -73,7 +72,7 @@ syntax enable
 " Always show lightline
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'Monokai',
+      \ 'colorscheme': 'onedark',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             ['readonly', 'filename', 'modified' ] ],
@@ -89,4 +88,4 @@ let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
 
 set background=dark
-colorscheme Monokai
+colorscheme onedark

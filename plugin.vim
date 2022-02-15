@@ -19,13 +19,6 @@ Plug 'ervandew/supertab'
 " GraphQL
 Plug 'jparise/vim-graphql'
 
-" php
-Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
-Plug 'tobyS/vmustache' | Plug 'tobyS/pdv', {'for': ['php', 'blade']} " php doc autocompletion 
-
-" Laravel
-Plug 'noahfrederick/vim-laravel', {'for': 'php'}
-
 " javascript
 Plug 'pangloss/vim-javascript', {'for': ['javascript', 'typescript', 'vue']}
 Plug 'MaxMEllon/vim-jsx-pretty', {'for': ['javascript', 'typescript']}
@@ -53,10 +46,6 @@ Plug 'kristijanhusak/vim-dadbod-ui'
 " html
 Plug 'alvan/vim-closetag', {'for': ['vue',  'javascript', 'typescript', 'html', 'php']}
 
-" blade
-Plug 'jwalton512/vim-blade', {'for': 'php'}
-Plug 'yaegassy/coc-blade-formatter', {'for': 'php', 'do': 'yarn install --frozen-lockfile',}
-
 " vue
 Plug 'posva/vim-vue', {'for': 'vue'}
 
@@ -80,9 +69,7 @@ Plug 'tpope/vim-surround'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'machakann/vim-highlightedyank'
-Plug 'flazz/vim-colorschemes'
-Plug 'Rigellute/shades-of-purple.vim'
-Plug 'shapeoflambda/dark-purple.vim'
+Plug 'rafi/awesome-vim-colorschemes'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
 Plug 'frazrepo/vim-rainbow'
