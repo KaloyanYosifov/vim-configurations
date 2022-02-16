@@ -38,5 +38,7 @@ noremap <S-j> :tabprev<cr>
 noremap <S-k> :tabnext<cr>
 
 " FZF Ctrlp for projects
-noremap <C-P> :GFiles --exclude-standard --others --cached<cr>
+command! Ctrlp execute (exists("*fugitive#head") && len(fugitive#head())) ? ':GFiles --exclude-standard --others --cached' : 'Files'
+
+noremap <C-P> :Ctrlp<cr>
 nnoremap <silent> <leader>; :BLines<CR>
