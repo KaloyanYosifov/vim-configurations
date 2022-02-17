@@ -62,6 +62,9 @@ Plug 'NLKNguyen/papercolor-theme'
 " style
 Plug 'Yggdroot/indentLine'
 
+" Terminal
+Plug 'akinsho/toggleterm.nvim'"
+
 " other
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
