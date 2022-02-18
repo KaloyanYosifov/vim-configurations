@@ -63,7 +63,7 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'Yggdroot/indentLine'
 
 " Terminal
-Plug 'akinsho/toggleterm.nvim'"
+Plug 'KaloyanYosifov/toggleterm.nvim'"
 
 " other
 Plug 'jiangmiao/auto-pairs'
