@@ -42,3 +42,5 @@ command! Ctrlp execute (exists("*fugitive#head") && len(fugitive#head())) ? ':GF
 
 noremap <C-P> :Ctrlp<cr>
 nnoremap <silent> <leader>; :BLines<CR>
+
+nnoremap <S-F> :Ag<CR>
