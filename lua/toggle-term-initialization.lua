@@ -32,6 +32,7 @@ function _G.set_terminal_keymaps()
   local opts = {noremap = true}
   vim.api.nvim_buf_set_keymap(0, 't', '<S-j>', "<Cmd>lua require'toggleterm'.prev_terminal()<CR>i<BS>", opts)
   vim.api.nvim_buf_set_keymap(0, 't', '<S-k>', "<Cmd>lua require'toggleterm'.next_terminal()<CR>i<BS>", opts)
+  vim.api.nvim_buf_set_keymap(0, 't', '<C-t>', "<Cmd>ToggleTerm<Cr><Cmd>lua require'toggleterm.terminal'.Terminal:new():toggle()<CR>i<BS>", opts)
 end
 
 -- if you only want these mappings for toggle term use term://*toggleterm#* instead
