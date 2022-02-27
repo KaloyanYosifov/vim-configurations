@@ -27,12 +27,6 @@
     "vetur.trace.server": "verbose",
     "vetur.dev.logLevel": "DEBUG",
     "languageserver": {
-        "golang": {
-            "command": "gopls",
-            "rootPatterns": ["go.mod"],
-            "disableWorkspaceFolders": true,
-            "filetypes": ["go"]
-        },
         "graphql": {
             "command": "graphql-lsp",
             "args": ["server", "-m", "stream"],
@@ -77,5 +71,8 @@
                 "haskell"
             ]
         }
+    },
+    "yaml.schemas": {
+        "kubernetes": "/*.yaml"
     }
 }

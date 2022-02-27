@@ -40,6 +40,7 @@ let g:coc_global_extensions = [
     \ 'coc-rls',
     \ 'coc-rust-analyzer',
     \ 'coc-prettier',
+    \ 'coc-go',
     \]
 
 " Important mappings
