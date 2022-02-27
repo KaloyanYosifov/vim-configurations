@@ -41,6 +41,7 @@ let g:coc_global_extensions = [
     \ 'coc-rust-analyzer',
     \ 'coc-prettier',
     \ 'coc-go',
+    \ 'coc-docker',
     \]
 
 " Important mappings
