@@ -19,6 +19,9 @@ Plug 'ervandew/supertab'
 " GraphQL
 Plug 'jparise/vim-graphql'
 
+" Docker
+Plug 'ekalinin/Dockerfile.vim'
+
 " javascript
 Plug 'pangloss/vim-javascript', {'for': ['javascript', 'typescript', 'vue']}
 Plug 'MaxMEllon/vim-jsx-pretty', {'for': ['javascript', 'typescript']}
