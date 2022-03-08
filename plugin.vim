@@ -60,7 +60,7 @@ Plug 'tpope/vim-fugitive' | Plug 'mhinz/vim-signify' " wrapper for git and displ
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " color schemes
-Plug 'NLKNguyen/papercolor-theme'
+Plug 'kaicataldo/material.vim'
 
 " style
 Plug 'Yggdroot/indentLine'
@@ -78,7 +78,6 @@ Plug 'tpope/vim-surround'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-commentary'
 Plug 'machakann/vim-highlightedyank'
-Plug 'rafi/awesome-vim-colorschemes'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
 Plug 'frazrepo/vim-rainbow'

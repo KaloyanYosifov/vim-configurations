@@ -67,12 +67,13 @@ if (has("termguicolors"))
  set termguicolors
 endif
 
+
 syntax enable
 
 " Always show lightline
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'onedark',
+      \ 'colorscheme': 'material',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             ['readonly', 'filename', 'modified' ] ],
@@ -88,4 +89,4 @@ let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
 
 set background=dark
-colorscheme onedark
+colorscheme material
