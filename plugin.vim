@@ -68,6 +68,9 @@ Plug 'Yggdroot/indentLine'
 " Terminal
 Plug 'KaloyanYosifov/toggleterm.nvim'"
 
+" Jenkinsfile
+Plug 'martinda/Jenkinsfile-vim-syntax'
+
 " other
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -88,6 +91,7 @@ Plug 'neoclide/coc.nvim'
 Plug 'tpope/vim-dispatch'
 Plug 'airblade/vim-rooter'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'wakatime/vim-wakatime'
 
 " All of your Plugins must be added before the following line
 call plug#end()

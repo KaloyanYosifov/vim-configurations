@@ -15,6 +15,7 @@ augroup coc
   autocmd!
   " Setup formatexpr specified filetype(s).
   autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
+  autocmd BufWrite *.hs,*.lhs,*.haskell call CocAction('format')
   " Update signature help on jump placeholder
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 augroup end
