@@ -71,6 +71,9 @@ Plug 'KaloyanYosifov/toggleterm.nvim'"
 " Jenkinsfile
 Plug 'martinda/Jenkinsfile-vim-syntax'
 
+" Arduino
+Plug 'sudar/vim-arduino-syntax'
+
 " other
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
