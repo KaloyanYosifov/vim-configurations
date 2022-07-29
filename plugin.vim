@@ -61,6 +61,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " color schemes
 Plug 'kaicataldo/material.vim'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 " style
 Plug 'Yggdroot/indentLine'

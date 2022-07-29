@@ -70,10 +70,12 @@ endif
 
 syntax enable
 
+set cursorline
+
 " Always show lightline
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'material',
+      \ 'colorscheme': 'onehalflight',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             ['readonly', 'filename', 'modified' ] ],
@@ -89,4 +91,4 @@ let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
 
 set background=dark
-colorscheme material
+colorscheme onehalflight
