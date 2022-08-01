@@ -66,7 +66,7 @@ Plug 'junegunn/seoul256.vim'
 Plug 'Yggdroot/indentLine'
 
 " Terminal
-Plug 'KaloyanYosifov/toggleterm.nvim'"
+Plug 'KaloyanYosifov/toggleterm.nvim'
 
 " Jenkinsfile
 Plug 'martinda/Jenkinsfile-vim-syntax'
