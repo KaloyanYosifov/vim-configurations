@@ -60,8 +60,7 @@ Plug 'tpope/vim-fugitive' | Plug 'mhinz/vim-signify' " wrapper for git and displ
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " color schemes
-Plug 'kaicataldo/material.vim'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'junegunn/seoul256.vim'
 
 " style
 Plug 'Yggdroot/indentLine'
