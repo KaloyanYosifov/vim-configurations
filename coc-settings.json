@@ -79,8 +79,5 @@
                 }
             }
         }
-    },
-    "yaml.schemas": {
-        "kubernetes": "/*.yaml"
     }
 }
