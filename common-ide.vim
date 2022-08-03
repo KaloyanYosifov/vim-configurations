@@ -4,7 +4,7 @@ function! Laravel(...) abort
     " standard phpcs config
     let g:neomake_php_phpcs_args_standard = 'PSR-1'
 
-    " php cs fixer 
+    " php cs fixer
     let g:php_cs_fixer_php_path = "php"
 
     let g:php_cs_fixer_verbose = 1
@@ -13,3 +13,6 @@ function! Laravel(...) abort
 
     autocmd FileType php nnoremap <leader>g :silent :call PhpCsFixerFixFile()<CR>
 endfunction
+
+" Make file indentation
+autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0

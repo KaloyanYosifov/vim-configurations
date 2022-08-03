@@ -26,12 +26,9 @@ else
 	vnoremap <A-k> :m '<-2<CR>gv=gv
 endif
 
-" UltiSnips
-nnoremap <leader>es :UltiSnipsEdit!<cr>
-
-" Popup menu navigating
-inoremap <expr> <C-j> pumvisible() ? "\<C-N>" : "\<C-j>"
-inoremap <expr> <C-k> pumvisible() ? "\<C-P>" : "\<C-k>"
+" Old without COC Popup menu navigating
+" inoremap <expr> <C-j> pumvisible() ? "\<C-N>" : "\<C-j>"
+" inoremap <expr> <C-k> pumvisible() ? "\<C-P>" : "\<C-k>"
 
 " Window switching
 noremap <S-j> :tabprev<cr>
