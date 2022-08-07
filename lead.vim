@@ -38,13 +38,8 @@ if filereadable(expand("$HOME/.vim/workspaces.vim"))
 	source ~/.vim/workspaces.vim
 endif
 
-" --------------------- Super Tab  ----------------------------------------------"
-
-let g:SuperTabDefaultCompletionType = "<c-n>"
-
 " --------------------- IndentLine from yggdroot ----------------------------------------------"
 let g:indentLine_setConceal = 0
-
 
 " --------------------- Autocommands  ----------------------------------------------"
 

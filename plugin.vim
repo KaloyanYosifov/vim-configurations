@@ -14,7 +14,6 @@ Plug 'dense-analysis/ale'
 
 " navigation
 Plug 'andymass/vim-matchup' " Match more stuff with % (html tag, LaTeX...)
-Plug 'ervandew/supertab'
 
 " GraphQL
 Plug 'jparise/vim-graphql'
