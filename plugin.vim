@@ -88,7 +88,7 @@ Plug 'frazrepo/vim-rainbow'
 Plug 'vim-scripts/ReplaceWithRegister'
 Plug 'wincent/terminus'
 Plug 'KaloyanYosifov/vim-project'
-Plug 'neoclide/coc.nvim'
+Plug 'neoclide/coc.nvim', { 'do': 'yarn' }
 Plug 'tpope/vim-dispatch'
 Plug 'airblade/vim-rooter'
 Plug 'editorconfig/editorconfig-vim'
