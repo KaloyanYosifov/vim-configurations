@@ -43,6 +43,7 @@ let g:coc_global_extensions = [
     \ 'coc-prettier',
     \ 'coc-go',
     \ 'coc-docker',
+    \ 'coc-sumneko-lua',
     \]
 
 " Important mappings

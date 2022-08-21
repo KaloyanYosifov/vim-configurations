@@ -49,5 +49,6 @@ silent! let g:plugs['vim-surround'].commit = 'bf3480dc9ae7bea34c78fbba4c65b4548b
 silent! let g:plugs['vim-toml'].commit = '89bcca8a3aeab360f6dfe5ce70999fc928669411'
 silent! let g:plugs['vim-vue'].commit = 'c424294e769b26659176065f9713c395731f7b3a'
 silent! let g:plugs['vim-wakatime'].commit = '4692ec3e77ade9e65171182296cca74352a39a12'
+silent! let g:plugs['vim-lua'].commit = 'fa810f85437525bcea0fc4ff22c634935721d86d'
 
 PlugUpdate!

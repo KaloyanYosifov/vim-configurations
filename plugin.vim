@@ -36,6 +36,9 @@ Plug 'vim-python/python-syntax', {'for': 'python'}
 Plug 'rust-lang/rust.vim', {'for': 'rust'}
 Plug 'cespare/vim-toml', { 'for': 'toml' }
 
+"Lua
+Plug 'tbastos/vim-lua', {'for': 'lua'}
+
 " Haskell
 Plug 'neovimhaskell/haskell-vim', {'for': 'haskell'}
 
