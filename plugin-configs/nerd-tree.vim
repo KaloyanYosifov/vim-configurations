@@ -2,6 +2,7 @@ let NERDTreeQuitOnOpen=1
 let NERDTreeShowLineNumbers=1
 let NERDTreeMapJumpFirstChild='_'
 let NERDTreeMapJumpLastChild='_'
+let NERDTreeShowHidden=1
 let g:NERDTreeGitStatusUntrackedFilesMode = 'all'
 
 function! NerdTreeToggleFind()
