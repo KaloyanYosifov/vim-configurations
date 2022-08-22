@@ -80,3 +80,8 @@ nmap <silent> <Leader>dc :call <SID>show_documentation()<CR>
 let g:LanguageClient_serverCommands = {
     \ 'vue': ['vls']
     \ }
+
+" fix popup colors for seoul256-light colorscheme
+" Found coc highlighting names with :h coc-highlights
+highlight CocHintFloat ctermfg=DarkGreen guifg=#038253
+highlight CocInfoFloat ctermfg=Magenta guifg=#3d05e1
