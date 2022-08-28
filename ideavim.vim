@@ -19,3 +19,9 @@ let g:highlightedyank_highlight_color = "rgba(160, 160, 160, 155)"
 map <C-n> <A-n>
 map <C-x> <A-x>
 map <C-p> <A-p>
+
+" --------------------- IDEA Specific ----------------------------------------------"
+
+nmap <leader>vrf :action RenameFile<CR>
+nmap <leader>vre :action RenameElement<CR>
+nmap <leader>cac :action ShowIntentionActions<CR>
