@@ -62,7 +62,7 @@ Plug 'tpope/vim-fugitive' | Plug 'mhinz/vim-signify' " wrapper for git and displ
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " color schemes
-Plug 'junegunn/seoul256.vim'
+Plug 'rakr/vim-one'
 
 " style
 Plug 'Yggdroot/indentLine'

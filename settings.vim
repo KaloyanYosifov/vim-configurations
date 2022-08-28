@@ -75,7 +75,7 @@ set cursorline
 " Always show lightline
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'seoul256',
+      \ 'colorscheme': 'one',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             ['readonly', 'filename', 'modified' ] ],
@@ -90,5 +90,5 @@ let g:lightline = {
 let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
 
+colorscheme one
 set background=light
-colorscheme seoul256-light
