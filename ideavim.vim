@@ -22,6 +22,7 @@ map <C-p> <A-p>
 
 " --------------------- IDEA Specific ----------------------------------------------"
 
+nmap <leader>f :action FindInPath<CR>
 nmap <leader>vrf :action RenameFile<CR>
 nmap <leader>vre :action RenameElement<CR>
 nmap <leader>cac :action ShowIntentionActions<CR>
