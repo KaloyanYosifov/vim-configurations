@@ -15,7 +15,8 @@
         "javascript",
         "javascriptreact",
         "typescript",
-        "typescriptreact"
+        "typescriptreact",
+        "rust"
     ],
     "json.enable": true,
     "json.format.enable": true,
@@ -80,5 +81,12 @@
             }
         }
     },
-    "Lua.telemetry.enable": false
+    "Lua.telemetry.enable": false,
+
+    // rust
+    "rust-analyzer.enable": true,
+    "rust-analyzer.server.path": "~/.cargo/bin/rust-analyzer",
+    "rust-analyzer.checkOnSave.enable": true,
+    "rust-analyzer.cargo.features": "all"
+
 }
