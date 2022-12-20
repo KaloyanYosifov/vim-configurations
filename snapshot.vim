@@ -20,7 +20,6 @@ silent! let g:plugs['lightline.vim'].commit = 'b1e91b41f5028d65fa3d31a425ff21591
 silent! let g:plugs['nerdtree'].commit = 'fc85a6f07c2cd694be93496ffad75be126240068'
 silent! let g:plugs['nerdtree-git-plugin'].commit = 'e1fe727127a813095854a5b063c15e955a77eafb'
 silent! let g:plugs['python-syntax'].commit = '2cc00ba72929ea5f9456a26782db57fb4cc56a65'
-silent! let g:plugs['rust.vim'].commit = '1cdc5cb4bd061bc30b502e07321682b5a4396dca'
 silent! let g:plugs['terminus'].commit = '12b07e390ea6346c91cd82edb0fa9b967164c38d'
 silent! let g:plugs['toggleterm.nvim'].commit = 'fe530f475cde67e91a63673467ab139c6ac78883'
 silent! let g:plugs['typescript-vim'].commit = '52f3ca3474d51f5021696ffb7297d989e49121ac'

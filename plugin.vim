@@ -33,7 +33,6 @@ Plug 'leafgarland/typescript-vim', {'for': ['typescript', 'typescriptreact']}
 Plug 'vim-python/python-syntax', {'for': 'python'}
 
 " Rust
-Plug 'rust-lang/rust.vim', {'for': 'rust'}
 Plug 'cespare/vim-toml', { 'for': 'toml' }
 
 "Lua
