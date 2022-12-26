@@ -13,6 +13,3 @@ function! Laravel(...) abort
 
     autocmd FileType php nnoremap <leader>g :silent :call PhpCsFixerFixFile()<CR>
 endfunction
-
-" Make file indentation
-autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
