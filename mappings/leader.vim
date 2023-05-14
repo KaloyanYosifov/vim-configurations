@@ -15,3 +15,5 @@ nnoremap <Leader>b :+
 nnoremap <Leader>nd :call NerdTreeToggleFind()<cr>
 
 noremap <Leader>sv :source ~/.vimrc<cr>
+
+noremap <Leader>co :%bd\|e#<cr>

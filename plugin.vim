@@ -76,7 +76,7 @@ Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'sudar/vim-arduino-syntax'
 
 " other
-Plug 'jiangmiao/auto-pairs'
+Plug 'windwp/nvim-autopairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'chrisbra/csv.vim'
