@@ -3,4 +3,6 @@ if not status_ok then
     return
 end
 
-autoPairs.setup {}
+autoPairs.setup {
+    map_cr = false
+}
