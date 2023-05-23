@@ -94,7 +94,6 @@ Plug 'neoclide/coc.nvim', { 'do': 'yarn' }
 Plug 'tpope/vim-dispatch'
 Plug 'airblade/vim-rooter'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'wakatime/vim-wakatime'
 
 " All of your Plugins must be added before the following line
 call plug#end()
